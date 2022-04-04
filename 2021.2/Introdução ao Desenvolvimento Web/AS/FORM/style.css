@@ -1,0 +1,24 @@
+/* HEADER */ 
+#title{
+    text-align: center;
+}
+/* TÍTULOS */
+h1{
+    text-align: center;
+}
+
+/* LINKS */
+a{
+    color: rgb(255, 115, 0);
+}
+
+/* Lista não ordenada*/
+.UnList{
+    font-size: 15px;
+}
+
+/* FOOTER */
+#footerText{
+    text-align: center;
+    font-size: 15px;
+}

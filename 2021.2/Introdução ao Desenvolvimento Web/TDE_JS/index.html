@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script/maiorMenor.js"></script>
+    <script src="script/somaDoisValores.js"></script>
+    <script src="script/operadores.js"></script>
+    <script src="script/usandoFor.js"></script>
+    <script src="script/dados.js"></script>
+    <script src="script/desafioCalculadora.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Usando JAVASCRIPT e os comandos PROMPT e ALERT</h1>
+    <h1>Calculadora Desafio:</h1>
+    Primeiro valor: <input type="number" name="num1" id="num1">
+    Segundo valor: <input type="number" name="num2" id="num2">
+    <p>
+        <select name="operadores" id="operadores">
+            <option value="operadorSoma">+</option>
+            <option value="operadorSubtracao">-</option>
+            <option value="operadorMultiplicacao">x</option>
+            <option value="operadorDivisao" >÷</option>
+        </select>
+        <input type="submit" value="Calcular" onclick="calcular()">
+    </p>   
+    <p>
+        <div id="res">
+        </div>
+    </p>
+</body>
+</html>

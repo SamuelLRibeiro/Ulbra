@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="script/script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="jumbotron jumbotron-fluid">
+        <h1 id="title">TÍTULO</h1>
+    </header>
+    <div class="row">
+        <section class="col-md-6">
+            <div class="container-fluid">
+                <article>
+                    <div>
+                        <h1>Formulário</h1>
+                        <label for="#">Nome</label>
+                        <input class="form-control" id="nameForm" placeholder="Ana, Miguel..." type="text" >
+                        <br>
+                        <label for="#">Email</label>
+                        <input class="form-control" placeholder="@outlook.com.br, @gmail.com" type="email" id="emailForm">
+                        <label for="#">Mensagem</label>
+                        <textarea class="form-control" placeholder="Digite a sua mensagem..." id="textareaForm" cols="20" rows="5"></textarea>
+                        <button type="submit" class="btn-primary" id="sendForm" onclick="sendForm()">Enviar</button>
+                    </div>
+                </article>
+            </div>
+        
+        </section>
+
+        <aside class="col-md-6"> 
+            <div>
+                 <h1>ASIDE</h1>
+                 <hr>
+                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias in nostrum cum, eaque sit, provident veritatis commodi expedita, officiis suscipit minima. Consequatur quaerat necessitatibus temporibus molestiae sapiente reiciendis modi ipsa, itaque aspernatur labore unde magnam, ducimus alias commodi nulla rerum, nostrum saepe optio fugiat magni? Vero quo ratione vitae, enim adipisci error fuga aspernatur molestiae molestias illum, repellat dolore unde!</p>
+                 <h1>NewsLetter</h1>
+                 <hr>
+                 <div id="newsLetter">
+                    <p>Inscreva-se na nossa newsletter e fique por dentro das nossas promoções e novidades!</p>
+                    <label for="#">Email</label>
+                    <input class="form-control" placeholder="seuemail@..." type="email" id="emailNews">
+                    <button class="btn-primary" type="submit" onclick="subscribeNews()">Inscrever-se</button>
+                    <div id="newsMessage"></div>
+                 </div>
+            </div>
+         </aside>
+         
+    </div>
+    <footer class="jumbotron jumbotron-fluid mb-0" id="footer">
+        <div class="container-fluid">
+            <h1>FOOTER</h1>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    line-height: 1.58;
+}
+
+.menu {
+    background-color: cadetblue;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+
+#banner {
+    margin: 0;
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    max-height: 450px;
+    width: 100%;
+}
+
+#titulo{
+    margin: 0;
+    text-align: center;
+}
+
+#subtitulo{
+    color: gray;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 22px;
+}
+
+.principal p {
+    margin-top: 29px;
+}
+
+a {
+    color: cadetblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
